@@ -36,4 +36,10 @@ def find_a(array)
   end
 end
 
+def sum_array(array)
+  array.sum 
+ end
 
+ def add_s(array)
+  array.map.with_index{|v,i| i==1 ? v : v + 's'}
+ end
